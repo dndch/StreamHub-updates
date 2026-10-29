@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "1.0.1",
-  "minimumNativeBuild": 2,
-  "path": "updates/releases/1.0.1/home.html",
+  "version": "1.0.2",
+  "minimumNativeBuild": 3,
+  "path": "updates/releases/1.0.2/home.html",
   "sha256": "83122c05dbef8ddd33e96814dd408445330aa40e0f4a072847d4c495671f6a94",
-  "notes": "Navegación integrada a pantalla completa y pestañas de plataformas. Esta mejora requiere la compilación nativa 2 o posterior."
+  "notes": "Navegador integrado y bloqueo de anuncios activable en todas las plataformas. Requiere la compilación nativa 3 o posterior. No garantiza eliminar anuncios integrados en el vídeo."
 }
