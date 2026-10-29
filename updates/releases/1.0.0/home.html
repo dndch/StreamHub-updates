@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="dark">
+<title>StreamHub</title>
+<style>
+:root{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#090b10;color:#f5f6fa;-webkit-tap-highlight-color:transparent}*{box-sizing:border-box}body{margin:0;padding:18px 22px 28px}main{max-width:680px;margin:auto}.eyebrow{font-size:10px;letter-spacing:3px;color:#8e96a7;font-weight:700;margin:8px 0 12px}.intro{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:26px}h1{font-size:clamp(32px,8vw,44px);letter-spacing:-1.6px;line-height:1.08;margin:0;font-weight:760}h1 span{color:#7d879b}.live{display:flex;align-items:center;gap:6px;color:#a4acbb;font-size:10px;white-space:nowrap;padding-bottom:5px}.live i{width:6px;height:6px;background:#67e8b0;border-radius:50%;box-shadow:0 0 12px #67e8b070}.cards{display:grid;gap:14px}.card{--brand:#53fc18;position:relative;display:flex;align-items:flex-end;text-align:left;isolation:isolate;overflow:hidden;width:100%;min-height:166px;border:1px solid #ffffff10;border-radius:23px;background:#131b13;color:inherit;padding:23px;cursor:pointer;transition:transform .16s,border-color .16s;font:inherit}.card:active{transform:scale(.975)}.card:focus-visible{outline:3px solid var(--brand);outline-offset:3px}.card::before{content:'';position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at 95% 0%,color-mix(in srgb,var(--brand) 18%,transparent),transparent 72%)}.card.youtube{--brand:#ff394d;background:#201014}.card.twitch{--brand:#a970ff;background:#191225}.watermark{position:absolute;z-index:-1;right:18px;top:14px;width:142px;height:142px;color:var(--brand);opacity:.2;transform:rotate(-10deg)}.youtube .watermark{width:168px;right:9px;transform:rotate(-12deg)}.twitch .watermark{right:17px;transform:rotate(8deg)}.content{width:100%;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}.label{font-size:10px;letter-spacing:1.7px;color:var(--brand);font-weight:650;display:flex;align-items:center;gap:6px;margin-bottom:8px}.label svg{width:12px;height:12px}h2{font-size:31px;line-height:1;margin:0 0 8px;letter-spacing:-1px;font-weight:750}.description{margin:0;font-size:12px;color:#aaaeba}.arrow{width:34px;height:34px;flex-shrink:0;border:1px solid #ffffff20;border-radius:50%;display:grid;place-items:center;background:#ffffff06;color:var(--brand);font-size:20px;font-weight:400}.footer{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:24px;border-top:1px solid #ffffff0c;padding-top:18px}.footer p{font-size:10px;line-height:1.6;color:#747e91;margin:0}.update{background:none;border:0;color:#a5afc1;font:inherit;font-size:11px;padding:10px 0 10px 10px;white-space:nowrap;cursor:pointer}#notice{font-size:12px;color:#b8c1d1;line-height:1.6}.preview{display:none}body.preview-mode .preview{display:block}@media(min-width:650px){body{padding:30px}.card{min-height:185px}.watermark{width:164px;height:164px}.intro{margin-bottom:30px}}@media(prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<p class="eyebrow">TUS PLATAFORMAS · UN SOLO LUGAR</p>
+<div class="intro"><h1>¿Qué vemos<br><span>hoy?</span></h1><div class="live"><i></i> A TU RITMO</div></div>
+<div class="cards">
+<button class="card kick" data-platform="kick" aria-label="Abrir Kick">
+<svg class="watermark" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M1 2h7v7h3V6h3V2h8v7h-4v6h4v7h-8v-4h-3v-3H8v7H1z"/></svg>
+<div class="content"><div><div class="label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6" fill="currentColor"/></svg> EN DIRECTO</div><h2>Kick</h2><p class="description">Descubre tu próximo directo.</p></div><span class="arrow" aria-hidden="true">↗</span></div>
+</button>
+<button class="card youtube" data-platform="youtube" aria-label="Abrir YouTube">
+<svg class="watermark" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7a4 4 0 0 0-3-3C17 3.5 7 3.5 4 4a4 4 0 0 0-3 3C.5 9 .5 15 1 17a4 4 0 0 0 3 3c3 .5 13 .5 16 0a4 4 0 0 0 3-3c.5-2 .5-8 0-10Z"/><path fill="#201014" d="m10 8 6 4-6 4z"/></svg>
+<div class="content"><div><div class="label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 4 14 8-14 8z" fill="currentColor"/></svg> DALE AL PLAY</div><h2>YouTube</h2><p class="description">Un mundo de vídeos por descubrir.</p></div><span class="arrow" aria-hidden="true">↗</span></div>
+</button>
+<button class="card twitch" data-platform="twitch" aria-label="Abrir Twitch">
+<svg class="watermark" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 1 1 5v16h6v3l4-3h5l7-7V1zm17 12-4 4h-5l-3 3v-3H5V3h16zM15 6h2v6h-2zM10 6h2v6h-2z"/></svg>
+<div class="content"><div><div class="label"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 3h18v14H9l-6 4zm4 4v2h10V7zm0 5v2h7v-2z"/></svg> TU COMUNIDAD</div><h2>Twitch</h2><p class="description">Tus streamers. Tus mejores momentos.</p></div><span class="arrow" aria-hidden="true">↗</span></div>
+</button>
+</div>
+<div class="footer"><p>Hecho para verlo a tu manera.<br>Sin cambiar de app.</p><button class="update" id="updates" aria-label="Buscar actualizaciones">Actualizaciones ↗</button></div>
+<p id="notice" role="status" aria-live="polite"></p>
+<p class="preview" style="font-size:11px;color:#747e91">Vista previa del inicio. En el iPhone las plataformas se abren dentro de la app.</p>
+</main>
+<script>
+'use strict';
+const platforms = Object.freeze({kick:'https://kick.com',youtube:'https://www.youtube.com',twitch:'https://www.twitch.tv'});
+function send(action, platform) {
+  const bridge = window.webkit?.messageHandlers?.streamhub;
+  if (bridge) { bridge.postMessage(platform ? {action,platform} : {action}); return; }
+  if (action === 'open' && Object.hasOwn(platforms, platform)) { window.open(platforms[platform], '_blank', 'noopener,noreferrer'); return; }
+  document.getElementById('notice').textContent = 'Las actualizaciones están disponibles en la app para iPhone.';
+}
+document.querySelectorAll('[data-platform]').forEach(button => button.addEventListener('click', () => send('open', button.dataset.platform)));
+document.getElementById('updates').addEventListener('click', () => send('updates'));
+if (!window.webkit?.messageHandlers?.streamhub) document.body.classList.add('preview-mode');
+</script>
+</body>
+</html>

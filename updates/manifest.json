@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "minimumNativeBuild": 1,
+  "path": "updates/releases/1.0.0/home.html",
+  "sha256": "2949a75dca1176b245b2109eaf0ed43dad71eb091c41761cb76d184d24c5e26d",
+  "notes": "Inicio con Kick, YouTube y Twitch."
+}
