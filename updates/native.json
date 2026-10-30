@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "build": 17,
-  "version": "1.6.4",
-  "releaseURL": "https://github.com/dndch/StreamHub/releases/tag/native-24-1",
-  "sha256": "3dee6286637e5c4d92904aca12feb622bd1b5741aab25482f18aa15085ae6403"
+  "build": 18,
+  "version": "1.7.0",
+  "releaseURL": "https://github.com/dndch/StreamHub/releases/tag/native-29-1",
+  "sha256": "4af88a592cabf37d3956abf6db819af54af2bec3757e274fc73566375c9cc0c0"
 }
