@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "minimumNativeBuild": 1,
-  "path": "updates/releases/1.0.3/home.html",
-  "sha256": "83122c05dbef8ddd33e96814dd408445330aa40e0f4a072847d4c495671f6a94",
+  "path": "updates/releases/1.0.4/home.html",
+  "sha256": "fdae43ca7e5eda4cd370d6dc08277b88e53c803019a1abf45b3269f2126873e7",
   "notes": "Inicio de StreamHub. Las nuevas versiones nativas se anuncian por separado cuando su IPA ya está disponible."
 }
