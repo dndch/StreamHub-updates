@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "minimumNativeBuild": 1,
-  "path": "updates/releases/1.0.5/home.html",
-  "sha256": "fdae43ca7e5eda4cd370d6dc08277b88e53c803019a1abf45b3269f2126873e7",
+  "path": "updates/releases/1.0.6/home.html",
+  "sha256": "531145ea5dab4e2bf4bc56ce208e88749c31990c309d0b64ad9719fa047607c3",
   "notes": "Inicio de DND HUB. Las nuevas versiones nativas se anuncian por separado cuando su IPA ya está disponible."
 }
